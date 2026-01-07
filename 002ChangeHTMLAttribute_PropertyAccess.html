@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Attribute Example</title>
+</head>
+<body>
+  <!-- Image with initial source -->
+  <img id="myImage" src="Tree.png" alt="Placeholder Image" width="150px">
+
+  <br><br>
+
+  <!-- Button to trigger JavaScript -->
+  <button onclick="changeImage()">Change Image</button>
+
+  <script>
+    // JavaScript function to change the image source
+    function changeImage() 
+    { 
+        let img = document.getElementById("myImage"); 
+        img.src = "Tree.png"; 
+        img.width = 300; 
+        img.alt = "Updated Image"; 
+    }
+  </script>
+</body>
+</html>
